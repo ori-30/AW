@@ -21,8 +21,82 @@
                         <input type="text" name="segundoAp" id="segundoAp">
 
                     </p>
+                    <p>
+                        Dirección:
+                        <input type="text" name="direccion" id="direccion" placeholder="calle o plaza, número y piso">
+
+                    </p>
+                    <p>
+                        Email:
+                        <input type="email" name="email" id="email" value="@">
+
+                    </p>
+                    <p>
+                        Contraseña:
+                        <input type="password" name="pw" id="pw" >
+
+                    </p>
+                    <div>
+                        <p>Sexo</p>
+                        <p>
+                            <input type="radio" name="sexo" id="varon" value="varon"> varón
+                            <br>
+                            <input type="radio" name="sexo" id="mujer" value="mujer"> mujer
+
+                        </p>
+                    </div>
                 </fieldset>
             </div>
+            <div class="contenedor-main">
+                <fieldset>
+                    <legend> Nivel de estudios e intereses</legend>
+                    <p>Nivel de estudios:
+                        <br>
+                        <select name="estudios">
+                            <option>Certificado escolar</option>
+                            <option>ESO</option>
+                            <option>Bachillerato</option>
+                            <option>Universidad</option>
+                        </select>
+                    </p>
+                    <p>
+                        Recibir artículos sobre los siguientes temas:
+                        <br>
+                        <input type="checkbox" name="musica" id="musica" value="musica"> Música
+                        <br>
+                        <input type="checkbox" name="Deportes" id="Deportes" value="Deportes"> Deportes
+                        <br>
+                        <input type="checkbox" name="Cine" id="Cine" value="Cine"> Cine
+                        <br>
+                        <input type="checkbox" name="Libros" id="Libros" value="Libros"> Libros
+                        <br>
+                        <input type="checkbox" name="Ciencia" id="Ciencia" value="Ciencia"> Ciencia
+                    </p>
+                </fieldset>
+            </div>
+            <div class="contenedor-main">
+                <fieldset>
+                    <legend> Datos sobre la revista</legend>
+                    <p>Frecuencia con la que se recibirá la revista:
+                        <br>
+                        <select name="estudios">
+                            <option>Semanal</option>
+                            <option>Mensual</option>
+                        </select>
+                    </p>
+                    <p>
+                        Puedes mandar tu artículo sobre cualquier tema de los que tratamos. Nosotros lo valoraremos para que pueda ser publicado.
+                
+                    </p>
+                    <p>
+                        Mandar artículo:
+                        <input type="file" name="file" id="file">
+                    </p>
+                    <p>
+                        Si deseas mandar simplemente una opinión o comentario, escríbelo aquí.
+                        <br>
+                        <textarea name="opinion" id="opinion">Escribe tu comentario</textarea>
+                    </p>
         </form>
     </div>
 
