@@ -1,0 +1,149 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #86BAFC;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sección hero */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8094F2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+.contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinos {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.destinos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.destino {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.destino img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.formulario {
+    max-width: 400px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Sección de contacto */
+.contacto {
+    background-color: #86C9E6;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contacto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #86F8FC;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
