@@ -1,0 +1,9 @@
+.contenedor{
+    height: 102px;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+.contenido{
+    height: 50px;
+}
