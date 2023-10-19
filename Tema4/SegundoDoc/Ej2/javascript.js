@@ -17,7 +17,7 @@ function sequence2(vectorFunciones, x) {
 
 function sequence3(vectorFunciones, x, right=false) {
     if(right){
-        for (let index = 0; index < vectorFunciones.length; index++) {
+        for (let index = vectorFunciones.length-1; index >= 0; index--) {
             x = vectorFunciones[index](x);
             if (typeof(x) == "undefined") {
                 return undefined;
