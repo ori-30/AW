@@ -17,4 +17,8 @@ function producto (x, y){
             result += x[index] * y[index];
         }
     }
+
+    if(result === "EXCEPCION"){
+        throw new Error("EXCEPCIÓN: Datos inválidos");
+    }
 }
