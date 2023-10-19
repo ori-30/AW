@@ -11,4 +11,4 @@ for (let index = 0; index < frase.length; index++) {
     }
 }
 
-console.info(` la letra ${letra} aparece ${contador} vez/veces`);
+console.info(`la letra ${letra} aparece ${contador} vez/veces`);
