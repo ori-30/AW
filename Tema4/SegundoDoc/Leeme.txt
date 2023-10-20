@@ -1,0 +1,2 @@
+Es recomendable instalarse node.js para hacer las pruebas, pero en una de malas puedes usar los 
+html y abrir la consola en el modo de desarrollador para poder ver el resultado
