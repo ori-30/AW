@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://localhost:3000",
+            "request": "launch",
+            "url": "http://localhost:3000"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Script: start",
+            "request": "launch",
+            "command": "node ./app.js",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
